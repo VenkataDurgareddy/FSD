@@ -1,0 +1,33 @@
+{
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+h1{
+	border-style: solid;
+	border-width: 10px;
+	border-color: red green blue orange;
+	border-left-style: dotted;
+	border-right-style: groove;
+	border-top-style: solid;
+	border-bottom-style: double;
+}
+span{
+	border: 10px solid blue;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 40px;
+
+
+}
+#bor{
+	 border: 10px ;
+	 border-color: red;
+     border-style: dotted;
+}
+#borde{
+	border:10px;
+	border-style: solid;
+	border-image: repeating-linear-gradient(to right,red 40%,aqua 60%);
+	border-image-slice: 5;
+	
+}

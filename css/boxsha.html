@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.a{
+			height: 300px;
+			width:200px;
+			background: blue;
+			box-shadow: 0px 3px 5px 0px red;
+			margin-left: 300px;
+		}
+		.b{
+			list-style-type: circle;
+			/*circle,square,upper,lower-roman,*/
+		}
+		.c{
+			height: 400px;
+			width:300px;
+			background: blue;
+			margin-left: 20px;
+			float: left;
+			position: static;
+			margin-left: 500px;
+		}
+		.d{
+			height: 400px;
+			width:300px;
+			background: skyblue;
+			margin-left: 20px;
+			float: left;
+			position: relative;
+			margin-left: 200px;
+		}
+		.e{
+			height: 400px;
+			width:300px;
+			background: pink;
+			margin-left: 20px;
+			float: left;
+			position: absolute;
+			margin-left: 30px;
+		}
+		.f{
+			height: 400px;
+			width:300px;
+			background: green;
+			margin-left: 20px;
+			float: left;
+			position: fixed;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>box shadow</h1>
+	<div class="a"></div>
+	<h1>List types</h1>
+	<ul class="b">
+		<li>ACET</li>
+		<li>AEC</li>
+		<li>ACOE</li>
+	</ul>
+	<h2><marquee direction="left">outline is worked as a border for a box but it is not considered in box model</marquee></h2>
+	<h1>position</h1>
+	<div class="c"><h1>static position means by default every box element in the webpage is in static position</div>
+	<div class="d"><h1>relative position means by using that previous position only it moves</div>
+	<div class="e"><h1>Absolute position means moving according to the parent block</h1></div>
+	<div class="f"><h1>Fixed position means the block position is fixed even though the web pagee is scrolling</div>
+</body>
+</html>
