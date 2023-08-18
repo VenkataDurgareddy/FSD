@@ -1,0 +1,30 @@
+Anchor tag is used to redirect one page to one page
+<a target="_blank" href="">click here for opening that site anchor tag is used.
+
+br tag is used to break the line into different lines
+
+<p></p> paragragh tag is used to
+text formatting tags 
+<b></b> bold tag is used for for making bold the characters
+<i></i> italic tag is used for making the italic  characters
+<u></u>for making the underline tags
+<mark>This tag is used for highlighting the content</mark>
+
+For striking out the content we use <del></del> tag is used
+ Strong tag is also like the bold tag
+
+For moving one folder to another folder we use anchor tag
+<a target="_blank" href="../>
+
+Types of lists
+ordered lists
+unordered lists
+Description lists
+Nested lists
+ in description list dl
+inside dt description term and description definition
+
+For ordered list type we have to use type attribute
+
+For image there is no closing tag
+<img src=">for image there is some attributes to make the change of the height and width
