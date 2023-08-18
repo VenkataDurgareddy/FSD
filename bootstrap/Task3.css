@@ -1,0 +1,16 @@
+        h1{
+			padding-top: 30px;
+		}
+		.container{
+			border: 5px solid black;
+			margin-top: 30px;
+		}
+		.col-md-3{
+				border:3px solid black;
+				height:200px;
+				padding-top: 10px;
+		}
+		#id1{
+			margin-left: -250px;
+		}
+		
